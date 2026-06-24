@@ -81,8 +81,7 @@ async function loadNews() {
         <p>${item.content || ''}</p>
       </div>
     `;
-
   });
 
   document.getElementById('news').innerHTML = html;
-  
+  // update
