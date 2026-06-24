@@ -1,35 +1,41 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>بطولة أحياء المدينة في نسختها الأولى</title>
+
+<title>دوري أحياء المرسى 2026</title>
+
 <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<header>
-    <img src="logo.png" class="logo" alt="شعار الجمعية">
-    <h1>بطولة أحياء المدينة في نسختها الأولى</h1>
-    <p>جمعية نجوم طرفاية متعددة الرياضات</p>
-</header>
+<div class="header">
+    <h1>دوري أحياء المرسى لكرة القدم المصغرة 2026</h1>
+</div>
 
-<section>
-    <h2>الفرق المشاركة</h2>
-    <div id="teams"></div>
-</section>
+<div class="container">
+    <div class="card">
+        <h2>برنامج المباريات</h2>
 
-<section>
-    <h2>برنامج المباريات</h2>
-    <div id="matches"></div>
-</section>
+        <table>
+            <thead>
+                <tr>
+                    <th>اليوم</th>
+                    <th>التاريخ</th>
+                    <th>المجموعة</th>
+                    <th>المباراة</th>
+                </tr>
+            </thead>
 
-<section>
-    <h2>آخر الأخبار</h2>
-    <div id="news"></div>
-</section>
+            <tbody id="matches-body">
+            </tbody>
 
-<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+        </table>
+    </div>
+</div>
+
 <script src="app.js"></script>
 
 </body>
