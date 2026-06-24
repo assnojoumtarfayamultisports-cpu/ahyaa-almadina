@@ -1,0 +1,43 @@
+body{
+    font-family: Tahoma, Arial, sans-serif;
+    background:#f5f7fa;
+    margin:0;
+    padding:0;
+}
+
+header{
+    text-align:center;
+    background:#0d2b6b;
+    color:white;
+    padding:20px;
+}
+
+.logo{
+    width:140px;
+}
+
+section{
+    padding:20px;
+}
+
+h2{
+    color:#0d2b6b;
+    border-right:5px solid #f0a500;
+    padding-right:10px;
+}
+
+.card{
+    background:white;
+    border-radius:12px;
+    padding:15px;
+    margin:10px 0;
+    box-shadow:0 2px 8px rgba(0,0,0,.1);
+}
+
+.teamA{
+    border-right:5px solid #f0a500;
+}
+
+.teamB{
+    border-right:5px solid #0d2b6b;
+}
